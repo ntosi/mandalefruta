@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 class App extends Component {
     state={total: 0,
       stockProductos: [
-        {nombre: "fruta1", precio: 11, descripcion:"fruta zaraza", foto: "./img/frutas01.jpg"},  
+        {nombre: "fruta1", precio: 11, descripcion:"fruta zaraza", foto: "http://lorempixel.com/200/200/food/1/"},  
         {nombre: "fruta2", precio: 13, descripcion:"lorem ipsum dolor sit amet", foto: "./img/frutas02.jpg"},  
         {nombre: "fruta3", precio: 65, descripcion:"Este es el zaraza de la zaraza perque zaraza", foto: "./img/frutas03.jpg"},  
         {nombre: "fruta3", precio: 65, descripcion:"Este es el zaraza de la zaraza perque zaraza", foto: "./img/frutas04.jpg"},  
